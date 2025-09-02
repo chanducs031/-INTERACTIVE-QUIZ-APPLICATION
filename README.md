@@ -31,3 +31,8 @@ JavaScript (Vanilla JS) – Dynamic quiz logic and interactivity
 Add timer-based quizzes
 Support for categories (e.g., JS, HTML, CSS, Aptitude)
 Save user scores with local storage or database.##
+
+
+<img width="1904" height="981" alt="Image" src="https://github.com/user-attachments/assets/3bb57a3a-0ff8-46ae-a578-294f4ebf628f" />
+<img width="1904" height="986" alt="Image" src="https://github.com/user-attachments/assets/490c4c44-0a00-4e2c-bcb3-39c9ca9fdbfa" />
+<img width="1918" height="988" alt="Image" src="https://github.com/user-attachments/assets/71b2c567-158f-49ed-92d5-2ff703bde93d" />
