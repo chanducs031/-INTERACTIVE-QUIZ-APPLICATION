@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Interview Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz-container">
+            <h1><i class="fas fa-laptop-code"></i> IT Interview Quiz</h1>
+            
+            <div id="start-screen">
+                <div class="welcome-text">
+                    <h2>Welcome to the IT Interview Practice Quiz!</h2>
+                    <p>Test your knowledge of various IT concepts and prepare for your interview.</p>
+                    <ul class="quiz-info">
+                        <li><i class="fas fa-question-circle"></i> 15 Questions</li>
+                        <li><i class="fas fa-clock"></i> No Time Limit</li>
+                        <li><i class="fas fa-check-circle"></i> Instant Feedback</li>
+                    </ul>
+                </div>
+                <button id="start-btn">
+                    <i class="fas fa-play"></i> Start Quiz
+                </button>
+            </div>
+
+            <div id="quiz-screen" class="hide">
+                <div class="quiz-header">
+                    <div id="progress">
+                        <span class="progress-label">Question</span>
+                        <span id="current-question">1</span>
+                        <span class="progress-label">of</span>
+                        <span id="total-questions">15</span>
+                    </div>
+                    <div id="score">
+                        <i class="fas fa-star"></i>
+                        Score: <span id="score-value">0</span>
+                    </div>
+                </div>
+
+                <div id="question-container">
+                    <h2 id="question-text"></h2>
+                    <div id="options-container" class="options-grid"></div>
+                </div>
+
+                <div id="feedback" class="hide"></div>
+                <button id="next-btn" class="hide">
+                    <span>Next Question</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div id="results-screen" class="hide">
+                <div class="results-content">
+                    <h2><i class="fas fa-trophy"></i> Quiz Complete!</h2>
+                    <div class="score-container">
+                        <div class="score-label">Your Final Score</div>
+                        <div id="final-score">0</div>
+                        <div class="score-max">out of 15</div>
+                    </div>
+                    <button id="restart-btn">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
