@@ -10,9 +10,11 @@
 
 *DURATION* : 12  weeks 
 
+* DATE*  : July 15 to October 15
+
 *MENTOR* : NEELA SANTOSH
 
-###An engaging and user-friendly Quiz Application built with JavaScript, designed to test knowledge through dynamic multiple-choice questions. This app provides instant feedback, score tracking, and a retry option, making it ideal for interview preparation, learning, or casual quizzing.
+###   An engaging and user-friendly Quiz Application built with JavaScript, designed to test knowledge through dynamic multiple-choice questions. This app provides instant feedback, score tracking, and a retry option, making it ideal for interview preparation, learning, or casual quizzing.  ###
 
  Features
  Dynamic Questions – Questions load randomly from a large set (80+ interview-relevant questions).
