@@ -10,7 +10,7 @@
 
 *DURATION* : 12  weeks 
 
-* DATE*  : July 15 to October 15
+*DATE*  : July 15 to October 15
 
 *MENTOR* : NEELA SANTOSH
 
